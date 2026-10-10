@@ -1,0 +1,20 @@
+# @three-ws/assistant-mcp
+
+> Generate a paste-ready three.ws assistant widget from any AI agent. build_assistant_widget turns a config into an embeddable <script> tag, a frame URL, and a ThreeAssistant.init() snippet for a floating 3D avatar chatbot on any website; list_assistant_options enumerates every avatar, background, mode and data-* attribute you can set. Pure, offline, deterministic, no key, no signer, no payment.
+
+@three-ws/assistant-mcp is a Model Context Protocol server from three.ws. Install: `npx -y @three-ws/assistant-mcp`.
+
+## Docs
+
+- [README](https://github.com/nirholas/assistant-mcp/blob/main/README.md): install, configuration, full reference
+- [Documentation site](https://nirholas.github.io/assistant-mcp/): the README as a web page
+- [Full text for LLMs](https://nirholas.github.io/assistant-mcp/llms-full.txt): README inlined
+- [AGENTS.md](https://github.com/nirholas/assistant-mcp/blob/main/AGENTS.md): guidance for coding agents
+
+## Project
+
+- [Source](https://github.com/nirholas/assistant-mcp)
+- [npm](https://www.npmjs.com/package/@three-ws/assistant-mcp)
+- [three.ws](https://three.ws): the platform this is part of
+- [Issues](https://github.com/nirholas/assistant-mcp/issues)
+- [MCP Registry](https://registry.modelcontextprotocol.io/?q=io.github.nirholas%2Fassistant-widget)

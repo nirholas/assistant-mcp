@@ -1,0 +1,41 @@
+{
+	"$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+	"name": "io.github.nirholas/assistant-widget",
+	"title": "three.ws Assistant Widget",
+	"description": "Generate a paste-ready embed for a floating 3D avatar chatbot on any website.",
+	"websiteUrl": "https://three.ws/assistant",
+	"icons": [
+		{
+			"src": "https://three.ws/three-ws-mcp-icon.svg",
+			"mimeType": "image/svg+xml",
+			"sizes": [
+				"any"
+			]
+		}
+	],
+	"repository": {
+		"url": "https://github.com/nirholas/assistant-mcp",
+		"source": "github"
+	},
+	"version": "0.1.2",
+	"packages": [
+		{
+			"registryType": "npm",
+			"identifier": "@three-ws/assistant-mcp",
+			"version": "0.1.2",
+			"runtimeHint": "npx",
+			"transport": {
+				"type": "stdio"
+			},
+			"environmentVariables": [
+				{
+					"name": "THREE_WS_BASE",
+					"description": "Origin used in the generated embed URLs (script src, frame URL, builder link). Override only when targeting a preview or self-hosted three.ws deployment.",
+					"format": "string",
+					"isRequired": false,
+					"default": "https://three.ws"
+				}
+			]
+		}
+	]
+}
